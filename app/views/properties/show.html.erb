@@ -28,7 +28,7 @@
 <hr>
 
 <% @property.railways.each_with_index do |f, index|%>
-  <% if f.name_of_railway_line != "" &&  station_name != "" && how_many_minutes_walk != ""%>
+  <% if f.name_of_railway_line != "" &&  f.station_name != "" && f.how_many_minutes_walk != ""%>
     <h1> Nearest station<%= index +1 %> </h1>
     <p>
       <strong>Name of railway line:</strong>
